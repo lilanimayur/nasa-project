@@ -2,22 +2,22 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "nasa_project",
-    "host": "127.0.0.1",
+    "database": "NasaProject",
+    "host": "database-1.c7loc2ltiadq.ap-south-1.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "postgres",
-    "database": "nasa_project",
-    "host": "127.0.0.1",
+    "database": "NasaProject",
+    "host": "database-1.c7loc2ltiadq.ap-south-1.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "postgres",
-    "database": "nasa_project",
-    "host": "127.0.0.1",
+    "database": "NasaProject",
+    "host": "database-1.c7loc2ltiadq.ap-south-1.rds.amazonaws.com",
     "dialect": "postgres"
   }
 }
