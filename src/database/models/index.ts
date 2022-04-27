@@ -17,7 +17,18 @@ if (config.use_env_variable) {
     config.database,
     config.username,
     config.password,
-    config
+    {
+      host: 'database-1.c7loc2ltiadq.ap-south-1.rds.amazonaws.com',
+      port: 5432,
+      logging: console.log,
+      maxConcurrentQueries: 100,
+      dialect: 'postgres',
+      dialectOptions: {
+          ssl:'Amazon RDS'
+      },
+      pool: { maxConnections: 5, maxIdleTime: 30},
+      language: 'en'
+  }
   );
 }
 
